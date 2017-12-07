@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>mybatis-module</artifactId>
+        <groupId>com.summer.base</groupId>
+        <version>1.0.0</version>
+        <relativePath>../mybatis-module/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>shiro-module</artifactId>
+    <packaging>pom</packaging>
+    <name>shiro-module</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <shiro-spring.version>1.2.2</shiro-spring.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>${shiro-spring.version}</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>shiro-module</finalName>
+    </build>
+</project>
