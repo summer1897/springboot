@@ -7,6 +7,7 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
+<<<<<<< HEAD
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
@@ -19,6 +20,12 @@
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
+=======
+*.iml
+.idea/**
+**/target/**
+**/*.iml
+>>>>>>> 9b9968d17fe6cf62d7e8f6b8355a92a27426f490
 
 # Gradle:
 .idea/**/gradle.xml
@@ -54,10 +61,16 @@ crashlytics-build.properties
 fabric.properties
 ### Java template
 # Compiled class file
+<<<<<<< HEAD
 *.class
 
 # Log file
 *.log
+=======
+
+
+# Log file
+>>>>>>> 9b9968d17fe6cf62d7e8f6b8355a92a27426f490
 
 # BlueJ files
 *.ctxt
@@ -127,3 +140,9 @@ local.properties
 .scala_dependencies
 .worksheet
 
+<<<<<<< HEAD
+=======
+/.idea/
+/mybatis-module/target/
+/springboot.iml
+>>>>>>> 9b9968d17fe6cf62d7e8f6b8355a92a27426f490
